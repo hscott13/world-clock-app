@@ -39,6 +39,7 @@ main {
   border: 3px solid black;
   border-radius: 2px;
   min-width: 175px;
+  min-height: 92.5px;
   padding: 5px;
   margin: 5px;
 }
