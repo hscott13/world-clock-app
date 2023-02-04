@@ -43,18 +43,19 @@ main {
   padding: 5px;
   margin: 5px;
 }
-.city-name {
-  text-transform: capitalize;
+.city .city-name {
+  text-transform: uppercase;
   font-weight: 700;
+  font-size: 1.2em;
 }
-.time {
+.city .time {
   font-size: 2em;
   font-weight: 400;
 }
-.time small {
+.city .time small {
   font-size: 0.4em;
   font-weight: 400;
 }
-.day {
+.city .day {
   font-weight: 300;
 }
