@@ -33,7 +33,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin: 25px;
+  margin: 10px 20px;
 }
 .city {
   border: 3px solid black;
@@ -41,7 +41,7 @@ main {
   min-width: 175px;
   min-height: 92.5px;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
 }
 .city .city-name {
   text-transform: uppercase;
@@ -58,4 +58,10 @@ main {
 }
 .city .day {
   font-weight: 300;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
 }
